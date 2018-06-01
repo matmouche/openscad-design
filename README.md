@@ -1,12 +1,11 @@
 # openscad-design
-
 A starter project to try openscad language for fun
-
-###################################################<br />
+<br/>###################################################<br />
 ##################### TOOLS #######################<br />
 
-OpenScad : Useful Gui tool to render .scad file
-           Ubuntu install => sudo apt install openscad
-           
-eSCAD    : Eclipse plugin to edit .scad file
-           P2 repository => http://p2.patricklie.com/escad
+<b>OpenScad:</b> Useful Gui tool to render .scad file<br />
+Ubuntu install => sudo apt install openscad
+
+<b>eSCAD:</b> Eclipse plugin to edit .scad file<br />
+P2 repository => http://p2.patricklie.com/escad
+<br />###################################################
