@@ -3,7 +3,7 @@
 A starter project to try openscad language for fun
 
 ###################################################
-########  TOOLS  ##################################
+##################### TOOLS #######################
 
 OpenScad : Useful Gui tool to render .scad file
            Ubuntu install => sudo apt install openscad
