@@ -59,7 +59,7 @@ module vinyle() {
  color("red") cube([0.5,31.5,31.5]);
 }
 
-color("grey") {
+color([56/255,62/255,66/255]) {
     //plancher
     cube([largeur,profondeur,epaisseur_bois]);
     
@@ -77,6 +77,9 @@ color("grey") {
     translate([largeur - (epaisseur_caisson*2) - epaisseur_bois - (largeur_caisson*2), 0,0]) cube([epaisseur_caisson, profondeur, hauteur]);
 	
 }
+
+//mur
+translate([-30,profondeur+3,0]) color("white") cube([220,5,200]);
 
 //placement matos
 translate([3,5,hauteur_caisson_vinyle + epaisseur_bois*2]) platine();
